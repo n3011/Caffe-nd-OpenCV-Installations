@@ -16,6 +16,8 @@ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
 #PYTHON dev for all other python dependeny
 sudo apt-get install python-dev
 
+#python image
+sudo apt-get install python-skimage
 
 #PIP to install numpy, scipy etc
 sudo apt-get install pip
