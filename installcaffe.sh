@@ -16,9 +16,6 @@ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
 #PYTHON dev for all other python dependeny
 sudo apt-get install python-dev
 
-#python image
-sudo apt-get install python-skimage
-
 #PIP to install numpy, scipy etc
 sudo apt-get install pip
 
@@ -39,6 +36,9 @@ sudo pip install python-gflags
 sudo pip install pyyaml
 sudo pip install Pillow
 sudo pip install six
+
+#python image
+sudo apt-get install python-skimage
 
 #download latest caffe from github
 git clone https://github.com/BVLC/caffe.git
