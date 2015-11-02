@@ -24,6 +24,12 @@ sudo apt-get install -y python-dev python-tk python-numpy python3-dev python3-tk
 #OPECV java binding
 sudo apt-get install -y ant default-jdk
 
+#CUDA support
+#first copy the nvidia cuba lib to usr/local
+sudo -i
+su -c 'ln -s /usr/lib/nvidia-346/libnvcuvid.so /usr/lib/libnvcuvid.so && ln -s /usr/lib/nvidia-346/libnvcuvid.so.1 /usr/lib/libnvcuvid.so.1'
+exit
+#Set build with cuda (in the CMakeLists.txt file )as ON
 sudo apt-get install -y unzip
 wget https://github.com/Itseez/opencv/archive/3.0.0.zip
 unzip 3.0.0.zip
