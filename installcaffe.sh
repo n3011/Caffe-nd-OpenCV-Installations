@@ -18,6 +18,7 @@ sudo apt-get install python-dev
 
 #PIP to install numpy, scipy etc
 sudo apt-get install pip
+sudo apt-get install gfortran
 
 sudo pip install numpy
 sudo pip install Cython
@@ -57,3 +58,4 @@ cd ..
 #add your python binding to PYTHONPATH
 cd python 
 export PYTHONPATH=$PYTHONPATH:$PWD
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH`
