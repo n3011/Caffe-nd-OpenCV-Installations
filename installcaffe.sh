@@ -58,4 +58,4 @@ cd ..
 #add your python binding to PYTHONPATH
 cd python 
 export PYTHONPATH=$PYTHONPATH:$PWD
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH`
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
