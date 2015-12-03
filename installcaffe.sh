@@ -37,6 +37,7 @@ sudo pip install python-gflags
 sudo pip install pyyaml
 sudo pip install Pillow
 sudo pip install six
+sudo pip install protobuf
 
 #python image
 sudo apt-get install python-skimage
