@@ -38,6 +38,9 @@ sudo pip install pyyaml
 sudo pip install Pillow
 sudo pip install six
 sudo pip install protobuf
+sudo pip install werkzeug
+sudo pip install flask
+sudo pip install tornado
 
 #python image
 sudo apt-get install python-skimage
