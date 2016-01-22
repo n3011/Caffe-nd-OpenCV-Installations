@@ -17,8 +17,8 @@ sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
 sudo apt-get install -y python-dev
 
 #PIP to install numpy, scipy etc
-sudo apt-get install pip
-sudo apt-get install gfortran
+sudo apt-get install -y pip
+sudo apt-get install -y gfortran
 
 sudo pip install numpy
 sudo pip install Cython
