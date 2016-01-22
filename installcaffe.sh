@@ -1,20 +1,20 @@
 #!/bin/sh
 
 # install Google protobuf OpenCV
-sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
-sudo apt-get install libopencv-dev python-opencv
+sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
+sudo apt-get install -y libopencv-dev python-opencv
 
 #install BOOST
-sudo apt-get install --no-install-recommends libboost-all-dev
+sudo apt-get install -y --no-install-recommends libboost-all-dev
 
 #BLAS, install ATLAS for it
-sudo apt-get install libatlas-base-dev
+sudo apt-get install -y libatlas-base-dev
 
 #google glog, gflags, lmdb
-sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
 
 #PYTHON dev for all other python dependeny
-sudo apt-get install python-dev
+sudo apt-get install -y python-dev
 
 #PIP to install numpy, scipy etc
 sudo apt-get install pip
