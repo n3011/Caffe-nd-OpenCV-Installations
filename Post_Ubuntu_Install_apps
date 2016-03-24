@@ -1,0 +1,7 @@
+#TODO
+sudo apt-get -Y install git
+sudo apt-get -Y install pip
+
+sudo apt-get install cmake
+
+
