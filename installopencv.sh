@@ -26,7 +26,7 @@ sudo apt-get install -y ant default-jdk
 
 #CUDA support
 #first copy the nvidia cuba lib to usr/local
-ln -s /usr/lib/nvidia-346/libnvcuvid.so /usr/lib/libnvcuvid.so && ln -s /usr/lib/nvidia-346/libnvcuvid.so.1 /usr/lib/libnvcuvid.so.1
+sudo ln -s /usr/lib/nvidia-346/libnvcuvid.so /usr/lib/libnvcuvid.so && ln -s /usr/lib/nvidia-346/libnvcuvid.so.1 /usr/lib/libnvcuvid.so.1
 #Set build with cuda (in the CMakeLists.txt file )as ON
 sudo apt-get install -y unzip
 wget https://github.com/Itseez/opencv/archive/3.0.0.zip
